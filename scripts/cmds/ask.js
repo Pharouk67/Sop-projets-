@@ -2,8 +2,8 @@ const axios = require('axios');
 
 const Prefixes = [
   '/ai',
-  'Heaven',
-  'romeo',
+  'moignon',
+  'préscilia',
   '+ai',
   'baby',
   'ai',
@@ -40,8 +40,8 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: `🐿𝙈𝙊𝙄𝙂𝙊𝙉 🐿
-______________________________  
+    await message.reply({ body: `🐿 𝙈𝙊𝙄𝙂𝙉𝙊𝙉 🐿\n\n
+  
 ${answer}
 🐿`,
 });
