@@ -2,12 +2,14 @@ const axios = require('axios');
 
 const Prefixes = [
   '/ai',
-  'moignon',
-  'préscilia',
+  'kim',
+  'Nemo',
   '+ai',
-  'baby',
+  'nemo',
   'ai',
   'ask',
+'enock',
+'deamon',
 ];
 
 module.exports = {
@@ -31,7 +33,7 @@ module.exports = {
       }
       const prompt = event.body.substring(prefix.length).trim();
    if (!prompt) {
-        await message.reply("🐿𝙈𝙊𝙄𝙂𝙉𝙊𝙉 🐿\n\n 𝘼𝙎𝙆 𝙈𝙀 𝙉𝙀𝙂𝙂𝘼......?");
+        await message.reply("            ༄◍𝑫𝒆𝒂𝒎𝒏𝒐𝒄𝒌◍༄    •❅───✧❅✦❅✧─────❅•   𝑺𝒂𝒍𝒖𝒕 𝒋'𝒔𝒖𝒊𝒔 𝒍𝒆 𝒇𝒓𝒖𝒊𝒕 𝒅𝒆 𝒍'𝒂𝒓𝒃𝒓𝒆 𝒅𝒊𝒗𝒊𝒏 🎇 𝗔𝗹𝗼𝗿𝘀 𝗰'𝗲𝘀𝘁 𝗾𝘂𝗼𝗶 𝘁𝗼𝗻 𝗽𝗿𝗼𝗯𝗹𝗲̀𝗺𝗲? 🎑");
         return;
       }
 
@@ -40,10 +42,9 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: `🐿 𝙈𝙊𝙄𝙂𝙉𝙊𝙉 🐿\n\n
-  
+    await message.reply({ body: `            ༄◍𝑫𝒆𝒂𝒎𝒏𝒐𝒄𝒌◍༄ ◆━━━━━◆❃◆━━━━━━◆        
 ${answer}
-🐿`,
+◆━━━━━◆❃◆━━━━━━◆ 🎆𝐎𝐰𝐧𝐞𝐫 :╰┈➤ [𝑬𝒏𝒐𝒄𝒌 𝒇𝒆𝒂𝒕 𝑷𝒉𝒂𝒓𝒐𝒖𝒌]  `,
 });
 
    } catch (error) {
